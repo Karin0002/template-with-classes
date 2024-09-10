@@ -1,0 +1,23 @@
+{
+  "name": "1dv610-l1",
+  "version": "1.0.0",
+  "description": "1dv610-L1-start-programming-again",
+  "type": "module",
+  "browser": "src/js/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "npx eslint ./src || exit 0",
+    "lint:fix": "npx eslint ./src --fix || exit 0"
+  },
+  "contributors": [
+    "Karin Silfversparre <ks224ac@student.lnu.se>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "@lnu/eslint-config": "^1.1.10"
+  }
+}
